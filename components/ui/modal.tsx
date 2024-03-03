@@ -20,7 +20,7 @@ interface ModalProps {
 const Modal: React.FC<ModalProps> = ({
   title,
   description,
-  isOpen,
+  isOpen = false,
   onClose,
   children,
 }) => {
